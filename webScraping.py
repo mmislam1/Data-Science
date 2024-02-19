@@ -1,6 +1,7 @@
+from bs4 import BeautifulSoup
 import requests
 
-URL = "https://realpython.github.io/fake-jobs/"
+URL = ""
 page = requests.get(URL)
 
-print(page.text)
+soup=BeautifulSoup(page.text,'html')
