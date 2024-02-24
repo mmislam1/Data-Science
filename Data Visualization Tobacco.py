@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[15]:
 
 
 import seaborn as sb
@@ -15,11 +11,6 @@ df=pd.read_csv(r"C:\Users\HP\OneDrive\Desktop\Data visualization\Adult_Tobacco_C
 print(df)
 
 
-
-
-# In[32]:
-
-
 lp=df[["Total Per Capita",'Year']]
 
 
@@ -27,13 +18,6 @@ lp=df[["Total Per Capita",'Year']]
 sb.lineplot(x='Year',y='Total Per Capita',data=lp)
 
 
-# In[29]:
-
-
-
-
-
-# In[ ]:
 
 
 
